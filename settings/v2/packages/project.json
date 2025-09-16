@@ -1,0 +1,38 @@
+{
+  "__version__": "1.0.6",
+  "script": {
+    "useDefineForClassFields": false,
+    "allowDeclareFields": false,
+    "preserveSymlinks": true
+  },
+  "general": {
+    "designResolution": {
+      "fitWidth": false,
+      "fitHeight": true,
+      "width": 430,
+      "height": 932
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "MAIN_CAR"
+      },
+      {
+        "index": 2,
+        "name": "OTHER_CAR"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 5,
+      "1": 4,
+      "2": 3
+    }
+  },
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  }
+}
